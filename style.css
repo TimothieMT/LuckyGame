@@ -36,4 +36,13 @@ h1, span, button {
   border: none;
 }
 
+.resultOne, .resultTwo {
+  margin-right: 30px;
+}
+
+.wrappercube {
+  height: 100px;
+  width: auto;
+}
+
 /*# sourceMappingURL=style.css.map */

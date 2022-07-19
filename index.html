@@ -11,11 +11,16 @@
 
     <div class="wrapper">
         <h1>LuckyGame</h1>
-        <span class="credits">100€</span>
+        <span class="credits">200 €</span>
         <button type="submit" class="dice" onclick="roll()">Würfeln</button>
         <button type="submit" class="reset" onclick="resetValue()">Reset</button>
-        <span class="result">6</span>
+        <div class="wrapperCube">
+            <img src="./dice-1-solid.svg" height="50px" width="50px" name="wuerfelOne" class="resultOne" />
+            <img src="./dice-1-solid.svg" height="50px" width="50px" name="wuerfelTwo" class="resultTwo"/>
+            <img src="./dice-1-solid.svg" height="50px" width="50px" name="wuerfelThree" class="resultThree"/>
+        </div>
     </div>
+
 
     <script src="./app.js"></script>
 </body>
