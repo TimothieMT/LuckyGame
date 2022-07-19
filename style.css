@@ -3,6 +3,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: black;
 }
 
 .wrapper {
@@ -11,11 +12,15 @@ body {
   display: flex;
   position: relative;
   margin: 0 auto;
+  top: 20vh;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
   align-items: center;
+  background-color: gold;
+  box-shadow: 10px;
+  border-radius: 10px;
 }
 
 h1, span, button {
@@ -43,6 +48,11 @@ h1, span, button {
 .wrappercube {
   height: 100px;
   width: auto;
+}
+
+.credits {
+  font-size: 25px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
