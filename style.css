@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, span, button {
+  margin: 0 0 30px 0;
+}
+
+.dice {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+
+.reset {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
